@@ -38,6 +38,9 @@ j = 0
 #      cause why not haha
 turns = 0
 
+randomq = ['chiikawa has blessed you!', 'megan thee stallion just followed you! YAAAY!', 'you will be blessed!', 'you will pass this finals season #trust',
+           'today is just a filler episode dont even worry', 'rock, paper... scissors....... . what comes next again?']
+
 print("Welcome to your own personified spinning wheel------")
 print("\n\nLICENSE AGREEMENT DISCLOSURE: This company is not accredited enough to provide...")
 print("...users with a visual wheel.")
@@ -54,18 +57,18 @@ print("Have Fun! \n\n")
 while turns >= 0:
     
     y = random.choice(x) # picks randomly
-    
+    choice = random.choice(randomq)
     if y == 'yes': # if yes you'll tell the user they rolled a yes
         i+=1
         turns += 1
         print("you rolled a " + y, '!')
-        print()
-        print("You are a savage. yuh. classy, bougie, ratchet. yuh. sassy, moody, nasty. yuh.")
-        print()
+        print("")
+        print(choice)
+        print("")
         # tbh these two following lines could be after the if else statement but oh well
         print("current status: ", + i, 'for yes, and', + j, 'for no.')
         
-        more = input("go again?")
+        more = input("\ngo again?")
 
     else : # otherwise tell the user they rolled a no
         j+=1
