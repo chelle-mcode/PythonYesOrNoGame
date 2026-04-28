@@ -52,7 +52,7 @@ print("To quit, just simply type 'no' without the quotations in ALL LOWERCASE LE
 print("Otherwise the game'll just keep on making choices for you! You have been warned. (OOOOOooooo ooooo im a ghost)\n")
 
 print("Have Fun! \n\n")
-
+print("Okay honestly I'm a Genie. Ask away.... I only answe yes or no.")
 
 while turns >= 0:
     
