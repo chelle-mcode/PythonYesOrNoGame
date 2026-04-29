@@ -78,5 +78,6 @@ while turns >= 0:
         more = input("go again?")
         
     if(more == 'no'):
+        print("Bye for now!\n")
         sys.exit()
 
